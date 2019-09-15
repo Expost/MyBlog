@@ -14,3 +14,4 @@ cd ..
 git add *
 git commit -m "¸üĞÂblog"
 git push origin master
+pause
