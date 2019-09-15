@@ -12,6 +12,7 @@ pause
 
 cd ..
 git add *
-git commit -m "更新blog"
+set /p input=请输入要git提交时的信息：
+git commit -m %input%
 git push origin master
 pause
