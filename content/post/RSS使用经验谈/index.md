@@ -67,11 +67,12 @@ Tiny Tiny Rss（简称ttrss）和Miniflux这两个rss服务均搭建尝试了下
 
 1. Tiny Tiny Rss，ttrss的官方应用，需要收费（有免费的版本，需要仔细寻找）。
 2. FeedMe，支持ttrss，免费无广告，配置项很多，可以配置以符合自己的操作习惯，算是稍微比较满意的一个客户端。
-3. Press，支持ttrss，免费，但多年前已经不维护了，因此后续能否使用还是个问题。
-4. Palabre，通过插件可支持ttrss，免费，付费可使用高级功能。
-5. Newsfold，不支持ttrss，免费有广告且使用有限制。
-6. gReader，不支持ttrss，其他未了解。
-6. Readably，支持ttrss，免费版功能有限制。
+3. News+，通过插件可支持ttrss，简单尝试后也比较满意。
+4. Press，支持ttrss，免费，但多年前已经不维护了，因此后续能否使用还是个问题。
+5. Palabre，通过插件可支持ttrss，免费，付费可使用高级功能。
+6. Newsfold，不支持ttrss，免费有广告且使用有限制。
+7. gReader，不支持ttrss，其他未了解。
+8. Readably，支持ttrss，免费版功能有限制。
 
 整体看了下Android下的第三方rss客户端，感觉体验都不如iPhone下的，这也是自己一直纠结的一个点，万一哪天重新换回Android，该咋使用自己的ttrss嘞😥？期待Android尽快有一个比较完美的第三方ttrss软件。
 
