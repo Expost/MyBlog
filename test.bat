@@ -1,1 +1,1 @@
-hugo server
+local_hugo server

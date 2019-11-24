@@ -1,6 +1,6 @@
 @echo off
 rd /S /Q public
-hugo
+local_hugo
 cd public
 git init
 git add -A
