@@ -8,6 +8,7 @@ git:
 install: true
 
 script:
+  - chmod +x ./hugo
   - ./hugo
 
 deploy:
