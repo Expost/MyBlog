@@ -22,7 +22,7 @@ categories: [琐碎]
 
 ttrss缓存的图片名称是个hash值，不能直接与文章关联起来。一个想法是将整个ttrss数据库dump出来，遍历所有文章的html，将hash值给找出来。
 
-使用`pd_dump`命令dump ttrss的数据库，直接遍历查找，并未找到这张图片的hash值。
+使用`pg_dump`命令dump ttrss的数据库，直接遍历查找，并未找到这张图片的hash值。
 
 找了篇使用媒体缓存的文章仔细研究了下，发现文章html中的图片链接还是原始链接，但ttrss网站页面中看到的则是含有hash的路径，因此猜测ttrss是在渲染的时候在前端进行路径替换的。图片的名称是个hash，估计这个hash就是根据源链接计算出的hash值。找了个例子试了下，果然是对的。图片的hash值名称就是图片原始链接的sha1值。
 
@@ -43,6 +43,7 @@ for line in file:
         if res == "46e4d516a9c3cc27ce4051869f63c22e93061ee3":
             print(item, line)
             break
+file.close()
 ```
 
 运行程序后，很快就找到了这个图片对应的文章，是某个论坛帖子中某个发言用户的头像。我也是服😢。
