@@ -17,7 +17,7 @@ Maoxian插件可以直接将剪藏的网页下载到浏览器的下载目录下�
 
 # 本地程序介绍
 
-首先需要参考[官方说明](https://mika-cn.github.io/maoxian-web-clipper/native-app/index-zh-CN.html)安装本地程序。**我的环境是Windows+Chrome，以下说明以此环境为准**。
+首先需要参考[官方说明](https://mika-cn.github.io/maoxian-web-clipper/native-app/index-zh-CN.html)安装本地程序。**我的环境是Windows+Chrome，以下说明基于此环境**。
 
 在运行本地程序目录下的`install.bat`程序后，会把配置`manifest.json`写到注册表中，在`manifest.json`中配置了与插件关联的本地程序路径，以及与本地程序通信的方式（目前只有stdio这一种方式）。这里配置的本地程序路径是目录下的`app_loader.bat`，而该bat中实际执行的是ruby代码`main.rb`。
 
