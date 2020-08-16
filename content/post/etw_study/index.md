@@ -1,6 +1,7 @@
 ---
 title: ETW机制学习
 date: 2020-07-24T23:04:00+08:00
+categories: [Windows]
 ---
 
 # 概述
